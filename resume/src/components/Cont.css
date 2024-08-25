@@ -1,0 +1,25 @@
+.row-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-left-col {
+    display: flex;
+}
+
+.cont-right-col {
+    display: flex;
+    margin-left: 5%;
+}
+
+.cont-left-col img {
+    width: 100px;
+    height: auto;
+}
+
+.cont-right-col img {
+    width: 100px;
+    height: auto;
+}
