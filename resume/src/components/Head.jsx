@@ -3,7 +3,7 @@ import "./Head.css";
 let header = {
     picture: "./src/components/Chadagon.jpg",
     name: 'RaphaMX',
-    job: 'Elden Game Developer'
+    job: 'Game Developer'
 }
 
 export function Header() {
