@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-left {
+    flex: 0 0 150px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 6.5%;
+    border-radius: 20%;
+    border: 2px solid whitesmoke;
+}
+
+.header-right {
+    flex: 0.5;
+    padding-left: 20px;
+    color: #8C583A;
+}
+
+.header-right h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.header-right h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #F2D091;
+}
+
+.contact {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.contact span {
+    margin-right: 10px;
+    font-size: 1.5em;
+}

@@ -1,0 +1,41 @@
+.education-item, .course-item, .project-item {
+    margin-bottom: 15px;
+}
+
+.objective p, .education-item p, .course-item p, .project-item p {
+    font-size: 1em;
+    width: 50%;
+}
+
+.education-item h4, .course-item h4, .project-item h4 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #8C583A;
+    font-family: 'Jersey 10';
+}
+
+.education-item span, .course-item span, .project-item span {
+    display: block;
+    font-size: 1.25em;
+    color: #F2D091;
+    margin-bottom: 5px;
+}
+
+
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    color: #F2D091;
+}
+
+.skill-item {
+    background-color: #8C583A;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
